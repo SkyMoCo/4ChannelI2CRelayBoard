@@ -1,0 +1,41 @@
+{
+  "name": "@joe-ab1do/mcp-pcf-aio",
+  "version": "3.3.1",
+  "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
+  "bundleDependencies": [],
+  "dependencies": {
+    "i2c-bus": "^5.2.2",
+    "@joe-ab1do/mcp-pcf-aio": "file:MCP230xx-PCF857x-AIO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkyMoCo/4ChannelI2CRelayBoard.git"
+  },  
+  "license": "MIT",
+  "keywords": [
+    "node-red",
+    "pcf8574A"
+  ],
+  "node-red": {
+    "version": ">1.0.0",
+    "nodes": {
+      "4ChannelI2CRelayBoard": "4channeli2crelayboard.js"
+    }
+  },
+  "engines": {
+    "node": ">=12",
+    "node-red": ">1"
+  },
+  "deprecated": false,
+  "bugs": {
+    "url": "https://github.com/SkyMoCo/4ChannelI2CRelayBoard/issues"
+  },
+  "homepage": "https://github.com/SkyMoCo/4ChannelI2CRelayBoard#readme",
+  "author": {
+    "name": "Kevin Smolkowski",
+    "email": "ksmolkowski@gmail.com"
+  },  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
